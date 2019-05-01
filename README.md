@@ -25,8 +25,11 @@ Application flow:
 5.When user enters that area, an local Notification is poped up.
 
 6.on tap of notification user is navigated to scan the image using ARCore for authenticaion.
+
 7.After scanning the image, user is presented with 4 blocks and he has to arrange them in order of Red--->Green and Blue --> Yellow.
+
 8.Once placement is done he can lick on Authenticate button , if correct user is navigated to map screen, else given a chance to try again.
+
 9.On the Map screen ,user can see a map, and camera feed . Once he starts walking he can see his current location with respect to map.
 
 
