@@ -15,10 +15,15 @@ In this project we mainly use three API's provided by ARCore :
 Application flow:
 
 1.When user installs the App, he is presented with a screen containg map, panned to his current location.
+
 2.user can navigate to any location on the map, and click on add button to create the geofence around that area.
+
 3.User can choose the radius and message for the particular geofence.
+
 4.The created geofence is saved in the database.
+
 5.When user enters that area, an local Notification is poped up.
+
 6.on tap of notification user is navigated to scan the image using ARCore for authenticaion.
 7.After scanning the image, user is presented with 4 blocks and he has to arrange them in order of Red--->Green and Blue --> Yellow.
 8.Once placement is done he can lick on Authenticate button , if correct user is navigated to map screen, else given a chance to try again.
